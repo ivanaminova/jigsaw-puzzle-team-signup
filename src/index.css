@@ -1,0 +1,23 @@
+@import "tailwindcss";
+
+@font-face {
+  font-family: "HPEGraphik";
+  src: url("./assets/fonts/HPE Graphik-Regular.otf") format("opentype");
+  font-weight: 400;
+  font-style: normal;
+}
+
+html,
+body,
+#root {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  color: #20211E;
+  user-select: none;
+  font-family: 'HPEGraphik', sans-serif;
+  background: url("/stacked-waves-haikei.svg") no-repeat center center fixed;
+  background-size: cover;
+}
